@@ -1,0 +1,86 @@
+index.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Network Tools</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6f8;
+margin:0;
+}
+
+header{
+background:#1f3c88;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.section{
+margin:30px;
+}
+
+.tools{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+width:220px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card a{
+display:inline-block;
+margin-top:10px;
+padding:8px 12px;
+background:#1f3c88;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Network Tools Directory</h1>
+<p>Quick access to operational tools</p>
+</header>
+
+<div class="section">
+
+<h2>Guatemala</h2>
+
+<div class="tools">
+
+<div class="card">
+<h3>MAE Huawei</h3>
+<a href="#">Open Tool</a>
+</div>
+
+<div class="card">
+<h3>XML Generator</h3>
+<a href="#">Open Tool</a>
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
